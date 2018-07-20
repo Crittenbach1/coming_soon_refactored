@@ -1,5 +1,7 @@
-require "coming_soon_refactored/version"
+require "open-uri"
+require "nokogiri"
+require "pry"
 
-module ComingSoonRefactored
-  # Your code goes here...
-end
+require_relative "test_nokogiri/version"
+require_relative "./test_nokogiri/test"
+require_relative "./test_nokogiri/cli"
